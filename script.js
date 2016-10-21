@@ -1,5 +1,4 @@
-/addListItem("product-list", {name: "donut" 
-                              })
+/addListItem("product-list", {name: "donut", picture:  "http://www.withsprinklesontop.net/wp-content/uploads/2012/01/DSC_0406x900.jpg",  })
 
 onNewListItem("product-list", function(product) {
   console.log(product)
